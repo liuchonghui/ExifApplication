@@ -21,4 +21,6 @@ android {
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile 'tools.android:filedownloader:0.0.3'
+    compile 'org.apache.sanselan:sanselan:0.97-incubator'
 }
